@@ -66,7 +66,7 @@ public class ClientRequestGenerator {
   public static HttpRequest getHoroscopeGetRequest(String param) {
     // Our taName parameter can either be empty, or some name, in which case it takes the format "?taName=name".
     // If you tried this in the web browser URL you might see something like
-    // https://epb3u4xo11.execute-api.us-east-1.amazonaws.com/Prod/securedResource?taName=theInputName
+    
     String taName = null;
     // TODO set the taName. It should either be empty "" if the param is empty, or else of the format "?name=param"
     String reqUri = "https://cs32apilab.herokuapp.com/horoscopeResource" + taName;
